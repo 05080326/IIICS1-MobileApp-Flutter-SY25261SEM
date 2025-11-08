@@ -1,14 +1,6 @@
 import 'package:flutter/material.dart';
-/** to do Task 6 */
-import 'package:flutterapp/gradient_container.dart';
 
-/** end of Task 6 */
-//Contructors in Dart  Flutter
-//Type of Contructors
-// Default
-// Named COntructors
-/// Optional Conttructors
-///
+import 'package:flutterapp/gradient_container.dart';
 
 class Users {
   String name;
@@ -44,8 +36,3 @@ void main() {
     ),
   );
 }
-
-/** To do task 5 */
-
-
-/** end of task 5 */
