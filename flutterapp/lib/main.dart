@@ -36,6 +36,8 @@ void main() {
   runApp(
     MaterialApp(
       home: Scaffold(
+/** do Task 3.2 */
+
         body: Container(
           decoration: const BoxDecoration(
             gradient: LinearGradient(
@@ -55,7 +57,14 @@ void main() {
             ),
           ),
         ),
+        /** End of Task 3.2 */
       ),
     ),
   );
 }
+
+
+/** Paste  task 3.1 ****/
+
+
+/*** end Paste  */
