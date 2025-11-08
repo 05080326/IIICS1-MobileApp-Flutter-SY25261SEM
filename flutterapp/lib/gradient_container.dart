@@ -16,20 +16,7 @@ class GradientContainer extends StatelessWidget {
       ),
       /*** todo Task 6 */
 
-      child: const Center(
-        /*** End Task 6 */
-
-        /*** todo Task 5 */
-
-        child: Text(
-          'Hello World!',
-          style: TextStyle(
-            color: Colors.white,
-            fontSize: 28,
-          ),
-        ),
-        /*** end Task 5 */
-      ),
+      child: Center(child: Image.asset("assets/images/dice-1.png", width: 200)),
     );
   }
 }
