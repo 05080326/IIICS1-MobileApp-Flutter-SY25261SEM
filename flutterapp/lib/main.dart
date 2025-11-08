@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
 
+/*** To do task 6 */
+
+/*** end of Task 6 */
+
 //Contructors in Dart  Flutter
 //Type of Contructors
 // Default
@@ -45,7 +49,7 @@ void main() {
   );
 }
 
-/** Paste  task 3.1 ****/
+/**  To do  task 5 ****/
 
 class GradientContainer extends StatelessWidget {
   @override
@@ -73,4 +77,4 @@ class GradientContainer extends StatelessWidget {
     );
   }
 }
-/*** end Paste  */
+/*** end task 5  */
