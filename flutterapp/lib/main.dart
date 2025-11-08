@@ -36,35 +36,41 @@ void main() {
   runApp(
     MaterialApp(
       home: Scaffold(
-/** do Task 3.2 */
+        /** do Task 3.2 */
 
-        body: Container(
-          decoration: const BoxDecoration(
-            gradient: LinearGradient(
-              colors: [
-                Colors.black,
-                Colors.deepPurple,
-                Color.fromARGB(255, 125, 70, 219)
-              ],
-              begin: Alignment.topCenter,
-              end: Alignment.bottomCenter,
-            ),
-          ),
-          child: Center(
-            child: Text(
-              'Hello World! Hi, ${WithDefinedValue.name}',
-              style: const TextStyle(fontSize: 30, color: Colors.white),
-            ),
-          ),
-        ),
+        body: GradientContainer(),
         /** End of Task 3.2 */
       ),
     ),
   );
 }
 
-
 /** Paste  task 3.1 ****/
 
-
+class GradientContainer extends StatelessWidget {
+  @override
+  Widget build(context) {
+    return Container(
+      decoration: const BoxDecoration(
+        gradient: LinearGradient(
+          colors: [
+            Color.fromARGB(255, 26, 2, 80),
+            Color.fromARGB(255, 45, 7, 98),
+          ],
+          begin: Alignment.topLeft,
+          end: Alignment.bottomRight,
+        ),
+      ),
+      child: const Center(
+        child: Text(
+          'Hello World!',
+          style: TextStyle(
+            color: Colors.white,
+            fontSize: 28,
+          ),
+        ),
+      ),
+    );
+  }
+}
 /*** end Paste  */
