@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
+/** to do Task 6 */
+import 'package:flutterapp/gradient_container.dart';
 
+/** end of Task 6 */
 //Contructors in Dart  Flutter
 //Type of Contructors
 // Default
@@ -36,41 +39,13 @@ void main() {
   runApp(
     MaterialApp(
       home: Scaffold(
-        /** do Task 3.2 */
-
         body: GradientContainer(),
-        /** End of Task 3.2 */
       ),
     ),
   );
 }
 
-/** Paste  task 3.1 ****/
+/** To do task 5 */
 
-class GradientContainer extends StatelessWidget {
-  @override
-  Widget build(context) {
-    return Container(
-      decoration: const BoxDecoration(
-        gradient: LinearGradient(
-          colors: [
-            Color.fromARGB(255, 26, 2, 80),
-            Color.fromARGB(255, 45, 7, 98),
-          ],
-          begin: Alignment.topLeft,
-          end: Alignment.bottomRight,
-        ),
-      ),
-      child: const Center(
-        child: Text(
-          'Hello World!',
-          style: TextStyle(
-            color: Colors.white,
-            fontSize: 28,
-          ),
-        ),
-      ),
-    );
-  }
-}
-/*** end Paste  */
+
+/** end of task 5 */
