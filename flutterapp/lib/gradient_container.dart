@@ -1,11 +1,8 @@
-/** Todo 3.2 */
 import 'package:flutter/material.dart';
-/** Todo 3.2  */
 
 class GradientContainer extends StatelessWidget {
   @override
   Widget build(context) {
-/** Todo 3.1 */
     return Container(
       decoration: const BoxDecoration(
         gradient: LinearGradient(
@@ -27,6 +24,5 @@ class GradientContainer extends StatelessWidget {
         ),
       ),
     );
-/** Todo 3.1  */
   }
 }
