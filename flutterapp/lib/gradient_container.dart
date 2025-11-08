@@ -14,7 +14,13 @@ class GradientContainer extends StatelessWidget {
           end: Alignment.bottomRight,
         ),
       ),
+      /*** todo Task 6 */
+
       child: const Center(
+        /*** End Task 6 */
+
+        /*** todo Task 5 */
+
         child: Text(
           'Hello World!',
           style: TextStyle(
@@ -22,6 +28,7 @@ class GradientContainer extends StatelessWidget {
             fontSize: 28,
           ),
         ),
+        /*** end Task 5 */
       ),
     );
   }
