@@ -1,0 +1,40 @@
+Passing Values to Function
+Positional Parameters - These parameters must be provided in theorder they are defined.
+
+Example:
+
+void greet(String name, int age) {
+  print('Hello, my name is $name and I am $age years old.');
+}
+
+void main() {
+  greet('Alice', 30); // Outputs: Hello, my name is Alice and I am 30 years old.
+}
+
+
+
+Passing Values to Function
+Named Parameters -  parameters can be specified in any order by name. can be optional or required.
+
+Example: 
+
+void greet({required String name, required int age}) {
+  print('Hello, my name is $name and I am $age years old.');
+}
+
+void main() {
+  greet(name: 'Alice', age: 30); // Outputs: Hello, my name is Alice and I am 30 years old.
+}
+ 
+Understanding “const”:
+
+Const keyword in Dart helps define immutable variables and ensures certain optimizations. This feature is particularly beneficial in Flutter development, where performance remains crucial.
+
+Using const, constants can be defined that are evaluated at compile-time
+
+Immutable objects can be created using constant constructors
+const helps Dart optimize runtime performance
+
+Understanding types in Dart is essential for writing effective code. Dart is a statically typed language, meaning types are checked at compile time
+
+Understanding types in Dart enhances code quality and reduces runtime errors. Dart’s strong typing, along with features like null safety and generics, provides a robust framework for building applications. Familiarity with these concepts is crucial for effective Dart programming!

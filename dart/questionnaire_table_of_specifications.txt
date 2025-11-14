@@ -1,0 +1,252 @@
+TABLE OF SPECIFICATIONS - MOBILE APPLICATION DEVELOPMENT QUESTIONNAIRE
+========================================================================
+
+COURSE: Introduction to Mobile Application Development
+TOTAL ITEMS: 45 Questions (25 Part I + 20 Part II + 1 Essay)
+ASSESSMENT TYPE: Multiple Choice + Essay
+
+========================================================================
+TOPIC DISTRIBUTION
+========================================================================
+
+1. Introduction to Mobile Application Development - 10 items (22.2%)
+2. History of Mobile Application - 5 items (11.1%)
+3. Android and iOS - 8 items (17.8%)
+4. Cross-platform Development - 7 items (15.6%)
+5. Introduction to Dart Programming - 15 items (33.3%)
+
+========================================================================
+COGNITIVE LEVEL DISTRIBUTION (BLOOM'S TAXONOMY)
+========================================================================
+
+REMEMBERING (Knowledge) - 18 items (40%)
+UNDERSTANDING (Comprehension) - 12 items (26.7%)
+APPLYING (Application) - 10 items (22.2%)
+ANALYZING (Analysis) - 3 items (6.7%)
+EVALUATING (Evaluation) - 1 item (2.2%)
+CREATING (Synthesis) - 1 item (2.2%)
+
+========================================================================
+DETAILED ITEM ANALYSIS BY TOPIC AND COGNITIVE LEVEL
+========================================================================
+
+PART I: MOBILE APPLICATION DEVELOPMENT FUNDAMENTALS
+
+TOPIC 1: INTRODUCTION TO MOBILE APPLICATION DEVELOPMENT
+Item 1 (Literal definition) - REMEMBERING
+Item 2 (Variable definition) - REMEMBERING
+Item 3 (Methods/Functions) - UNDERSTANDING
+Item 4 (Parameters) - UNDERSTANDING
+Item 5 (Properties) - UNDERSTANDING
+Item 6 (Loops) - UNDERSTANDING
+Item 7 (Conditionals) - UNDERSTANDING
+Item 8 (SDK definition) - REMEMBERING
+Item 9 (SDK characteristics) - UNDERSTANDING
+Item 10 (IDE and SDK relationship) - APPLYING
+
+TOPIC 2: HISTORY OF MOBILE APPLICATION
+Item 13 (First cell-phone year) - REMEMBERING
+Item 14 (Cell-phone inventor) - REMEMBERING
+Item 21 (1990 mobile technology) - REMEMBERING
+Item 22 (Mobile OS function) - UNDERSTANDING
+Item 25 (Convergence concept) - UNDERSTANDING
+
+TOPIC 3: ANDROID AND IOS
+Item 11 (Huawei platform) - REMEMBERING
+Item 12 (Firefox OS platform) - REMEMBERING
+Item 15 (iOS characteristics) - REMEMBERING
+Item 23 (Android IDE) - REMEMBERING
+Item 24 (Platform selection criteria) - ANALYZING
+
+TOPIC 4: CROSS-PLATFORM DEVELOPMENT
+Item 16 (Native apps characteristics) - UNDERSTANDING
+Item 17 (Hybrid app languages) - REMEMBERING
+Item 18 (Cross-platform characteristics) - UNDERSTANDING
+Item 19 (Native programming disadvantages) - ANALYZING
+Item 20 (Web app languages) - REMEMBERING
+
+PART II: DART PROGRAMMING
+
+TOPIC 5: INTRODUCTION TO DART PROGRAMMING & DATA TYPES
+Item 1 (Variable declaration) - APPLYING
+Item 2 (Function keyword) - REMEMBERING
+Item 3 (Map syntax) - REMEMBERING
+Item 4 (Adding to map) - APPLYING
+Item 5 (Adding multiple to map) - APPLYING
+Item 6 (Print function) - REMEMBERING
+Item 7 (Program entry point) - REMEMBERING
+Item 8 (Accessing map values) - APPLYING
+Item 9 (Accessing map keys) - APPLYING
+Item 10 (String declaration) - REMEMBERING
+Item 11 (Comments syntax) - REMEMBERING
+Item 12 (Decimal data type) - REMEMBERING
+Item 13 (Map key checking) - APPLYING
+Item 14 (Empty map creation) - APPLYING
+Item 15 (Constant keywords) - UNDERSTANDING
+Item 16 (Map removal) - APPLYING
+Item 17 (List syntax) - REMEMBERING
+Item 18 (Map length) - APPLYING
+Item 19 (Non-existent key access) - UNDERSTANDING
+Item 20 (Invalid data type) - REMEMBERING
+
+PART III: ESSAY QUESTION
+Item 21 (var, final, const explanation) - ANALYZING/EVALUATING/CREATING
+
+========================================================================
+DIFFICULTY LEVEL DISTRIBUTION
+========================================================================
+
+EASY (Remembering/Understanding) - 30 items (66.7%)
+MODERATE (Applying/Analyzing) - 13 items (28.9%)
+DIFFICULT (Evaluating/Creating) - 2 items (4.4%)
+
+========================================================================
+ANSWER KEY - PART I
+========================================================================
+
+1. B (A piece of data stored in memory)
+2. B (A name pointer to data that can be changed)
+3. C (They cannot accept parameters)
+4. B (Data values passed to methods and functions)
+5. B (They are data associated with the objects of a program)
+6. B (A mechanism to repeat instructions until a condition is met)
+7. B (To test if statements are true or false)
+8. A (Software Development Kit)
+9. B (They consist of resources necessary for app development)
+10. A (IDE)
+11. D (HarmonyOS)
+12. B (KaiOS)
+13. D (1973)
+14. C (Dr. Martin Cooper)
+15. D (iOS)
+16. A (They are slower to develop)
+17. C (HTML, CSS, and JavaScript)
+18. C (They use a single code base to run on multiple platforms)
+19. B (High barrier to entry)
+20. D (Swift)
+21. C (2G technology)
+22. A (Manage mobile hardware and applications)
+23. A (Android Studio)
+24. B (Platform's development tools and profitability)
+25. A (Combining a camera, GPS, and music player in one device)
+
+========================================================================
+ANSWER KEY - PART II
+========================================================================
+
+1. iv (All of the above)
+2. iii (void)
+3. A ({"key": "value"})
+4. B (map["key"] = "value")
+5. A (addAll())
+6. B (print())
+7. C (main())
+8. A (map.values)
+9. A (map.keys)
+10. A (String name = "John";)
+11. B (//)
+12. C (double)
+13. B (map.containsKey("key"))
+14. D (All of the above)
+15. D (Both a and b)
+16. B (map.remove("key"))
+17. A ([1, 2, 3])
+18. B (map.length)
+19. B (Returns null)
+20. C (boolean)
+
+========================================================================
+ESSAY QUESTION RUBRIC - PART III (10 POINTS)
+========================================================================
+
+EXCELLENT (9-10 points):
+- Clear explanation of all three keywords
+- Correct usage scenarios for each
+- Accurate code examples
+- Demonstrates deep understanding
+
+GOOD (7-8 points):
+- Good explanation of keywords
+- Most usage scenarios correct
+- Code examples mostly accurate
+- Shows solid understanding
+
+SATISFACTORY (5-6 points):
+- Basic explanation provided
+- Some usage scenarios correct
+- Code examples present but may have minor errors
+- Shows basic understanding
+
+NEEDS IMPROVEMENT (3-4 points):
+- Incomplete explanations
+- Limited understanding of usage
+- Code examples with errors
+- Shows minimal understanding
+
+UNSATISFACTORY (0-2 points):
+- Incorrect or missing explanations
+- No clear understanding demonstrated
+- No or incorrect code examples
+
+========================================================================
+SAMPLE ESSAY ANSWER - PART III
+========================================================================
+
+EXPLANATION OF 'var', 'final', AND 'const' IN DART:
+
+1. 'var' KEYWORD:
+   - Used for type inference
+   - Variable can be reassigned
+   - Type determined at compile time
+   
+   Example:
+   var name = "John";     // String inferred
+   name = "Jane";         // Can be changed
+   var age = 25;          // int inferred
+
+2. 'final' KEYWORD:
+   - Variable can only be set once
+   - Value assigned at runtime
+   - Cannot be reassigned after initialization
+   
+   Example:
+   final currentTime = DateTime.now();  // Set at runtime
+   final String userName = "Admin";     // Cannot change
+
+3. 'const' KEYWORD:
+   - Compile-time constant
+   - Value must be known at compile time
+   - Immutable and cannot be changed
+   
+   Example:
+   const pi = 3.14159;           // Compile-time constant
+   const List<int> numbers = [1, 2, 3];  // Immutable list
+
+WHEN TO USE EACH:
+- Use 'var' when you need a mutable variable with type inference
+- Use 'final' when you want to set a value once at runtime
+- Use 'const' when you have a compile-time constant value
+
+========================================================================
+ASSESSMENT VALIDITY AND RELIABILITY NOTES
+========================================================================
+
+CONTENT VALIDITY:
+- Questions cover all specified topics proportionally
+- Items align with learning objectives
+- Cognitive levels appropriately distributed
+
+CONSTRUCT VALIDITY:
+- Questions test intended knowledge and skills
+- Progressive difficulty from basic to advanced concepts
+- Multiple cognitive levels assessed
+
+RELIABILITY FACTORS:
+- Clear, unambiguous question stems
+- Plausible distractors in multiple choice
+- Consistent formatting and structure
+- Comprehensive answer key provided
+
+========================================================================
+END OF TABLE OF SPECIFICATIONS
+========================================================================
